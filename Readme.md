@@ -1,7 +1,7 @@
 # Личный проект «Readme»
 
-* Студент: [Сергей Котельников](https://up.htmlacademy.ru/nodejs-2/6/user/1487045).
-* Наставник: `Неизвестно`.
+- Студент: [Сергей Котельников](https://up.htmlacademy.ru/nodejs-2/6/user/1487045).
+- Наставник: [Владислав Поклонский](https://htmlacademy.ru/profile/id2210683).
 
 ---
 
