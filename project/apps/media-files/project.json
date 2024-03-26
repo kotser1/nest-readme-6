@@ -1,0 +1,24 @@
+{
+  "name": "media-files",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/media-files/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "media-files:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "media-files:build:development"
+        },
+        "production": {
+          "buildTarget": "media-files:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}
